@@ -46,8 +46,16 @@ namespace OperatorsAndLoops
             Console.WriteLine("=====================================");*/
 
             // Логическое И и ИЛИ
-
-
+            int money = 300;
+            int level = 9;
+            if (money >= 500 || level > 9)
+            {
+                Console.WriteLine("Проходи! Добро пожаловать в нашу гильдию.");
+            }
+            else
+            {
+                Console.WriteLine("Вас выпнули за дверь.");
+            }
         }
     }
 }
