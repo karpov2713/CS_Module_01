@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Module1_HW_String", "CS_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorsAndLoops", "OperatorsAndLoops\OperatorsAndLoops.csproj", "{5C0148C3-3597-4EB6-9014-0BA1F0B5750D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Module1_HW_Pictures", "CS_Module1_HW_Pictures\CS_Module1_HW_Pictures.csproj", "{C3BEA7A2-A672-4AFE-94B5-A9725476FB7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5C0148C3-3597-4EB6-9014-0BA1F0B5750D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C0148C3-3597-4EB6-9014-0BA1F0B5750D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C0148C3-3597-4EB6-9014-0BA1F0B5750D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3BEA7A2-A672-4AFE-94B5-A9725476FB7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3BEA7A2-A672-4AFE-94B5-A9725476FB7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3BEA7A2-A672-4AFE-94B5-A9725476FB7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3BEA7A2-A672-4AFE-94B5-A9725476FB7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
