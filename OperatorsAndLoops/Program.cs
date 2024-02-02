@@ -10,7 +10,10 @@ namespace OperatorsAndLoops
     {
         static void Main(string[] args)
         {
-            int age;
+            Console.OutputEncoding = Encoding.Unicode;
+            Console.InputEncoding = Encoding.Unicode;
+
+            /*int age;
             Console.Write("Введите свой возраст? ");
             age = Convert.ToInt32(Console.ReadLine());
 
@@ -24,6 +27,24 @@ namespace OperatorsAndLoops
                 Console.WriteLine("Вы слишком юны.");
                 Console.WriteLine("Приходите к нам через: " + (18 - age) + " лет.");
             }
+
+            Console.WriteLine("=====================================");*/
+
+            // if ... else if
+            /*string dayOfWeek;
+            Console.Write("Введите день недели: ");
+            dayOfWeek = Console.ReadLine();
+            if (dayOfWeek == "понедельник") 
+            {
+                Console.WriteLine("Проходим курсы.");
+            }
+            else if (dayOfWeek == "вторник")
+            {
+                Console.WriteLine("Делаем домашнее задание");
+            }
+
+            Console.WriteLine("=====================================");*/
+
         }
     }
 }
