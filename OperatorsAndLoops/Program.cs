@@ -57,6 +57,34 @@ namespace OperatorsAndLoops
                 Console.WriteLine("Вас выпнули за дверь.");
             }*/
 
+            // Условный оператор SWITCH
+            /*string dayOfWeek;
+            Console.Write("Какой сегодня день недели? ");
+            dayOfWeek = Console.ReadLine();
+
+            switch (dayOfWeek)
+            {
+                case "понедельник":
+                case "суббота":
+                    Console.WriteLine("Идем в кино");
+                    Console.WriteLine("Едим попкорн");
+                    break;
+                case "вторник":
+                    Console.WriteLine("Проходим курсы");
+                    break;
+                case "среда":
+                    Console.WriteLine("Изучаем switch");
+                    break;
+                case "четверг":
+                    Console.WriteLine("Проектируем приложение");
+                    break;
+                case "пятница":
+                    Console.WriteLine("Выходной. Полный чилл.");
+                    break;
+                default: Console.WriteLine("Сиди дома!!!");
+                    break;
+            }*/
+
         }
     }
 }
