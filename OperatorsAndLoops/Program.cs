@@ -45,6 +45,9 @@ namespace OperatorsAndLoops
 
             Console.WriteLine("=====================================");*/
 
+            // Логическое И и ИЛИ
+
+
         }
     }
 }
