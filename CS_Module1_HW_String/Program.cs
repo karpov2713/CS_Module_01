@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CS_Module1_HW_String
 {
@@ -25,8 +21,9 @@ namespace CS_Module1_HW_String
             Console.Write("В каком городе вы живете? ");
             string placeOfResidence = Console.ReadLine();
 
-            Console.WriteLine("Ваше имя {0}, Вам {1} лет, {2} по гороскопу, живете в городе {3}, по профессии Вы - {4}.", name, age, zodiacSign, placeOfResidence, profession);
+            Console.WriteLine("Ваше имя {0}, Вам {1} лет, {2} по гороскопу, живёте в городе {3}, по профессии Вы - {4}.", name, age, zodiacSign, placeOfResidence, profession);
 
+            Console.ReadKey();
         }
     }
 }
