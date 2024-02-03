@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Module1_HW_Pictures", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Module1_HW_Plases", "CS_Module1_HW_Plases\CS_Module1_HW_Plases.csproj", "{603DD045-17DD-4056-8D90-2948A7AA62FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Module1_HW_Crystals", "CS_Module1_HW_Crystals\CS_Module1_HW_Crystals.csproj", "{B82140B4-B8D3-4AEA-8B6C-AA5950EDC325}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{603DD045-17DD-4056-8D90-2948A7AA62FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{603DD045-17DD-4056-8D90-2948A7AA62FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{603DD045-17DD-4056-8D90-2948A7AA62FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B82140B4-B8D3-4AEA-8B6C-AA5950EDC325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82140B4-B8D3-4AEA-8B6C-AA5950EDC325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82140B4-B8D3-4AEA-8B6C-AA5950EDC325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82140B4-B8D3-4AEA-8B6C-AA5950EDC325}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
