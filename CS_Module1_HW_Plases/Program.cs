@@ -8,11 +8,11 @@ namespace CS_Module1_HW_Plases
         {
             string name = "Иванов";
             string surName = "Валентин";
-            string temString;
+            string tempString;
             Console.WriteLine($"Имя и Фамилия до перестановки: {name} {surName}.");
-            temString = name;
+            tempString = name;
             name = surName;
-            surName = temString;
+            surName = tempString;
             Console.WriteLine($"Имя и Фамилия после перестановки: {name} {surName}.");
         }
     }
