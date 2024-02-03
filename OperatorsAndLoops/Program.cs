@@ -85,6 +85,41 @@ namespace OperatorsAndLoops
                     break;
             }*/
 
+            // Использование констант в методе SWITCH
+            /*const string CommandShowText = "1";
+            const string CommandClearConsole = "2";
+            const string CommandExit = "3";
+
+            bool isWork = true;
+            string userInput;
+
+            while (isWork)
+            {
+                Console.WriteLine($"{CommandShowText} Показать текст");
+                Console.WriteLine($"{CommandClearConsole} Очистить консоль");
+                Console.WriteLine($"{CommandExit} Выход");
+
+                userInput = Console.ReadLine();
+
+                switch (userInput)
+                {
+                    case CommandShowText:
+                        Console.WriteLine("Показ текста.");
+                        break;
+                    case CommandClearConsole:
+                        Console.Clear();
+                        break;
+                    case CommandExit:
+                        isWork = false;
+                        Console.WriteLine("Программа завершена.");
+                        break;
+
+                    default: Console.WriteLine("Такой команды нет.");
+                        break;
+                }
+            }*/
+
+
         }
     }
 }
