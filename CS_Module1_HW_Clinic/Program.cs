@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CS_Module1_HW_Clinic
 {
@@ -14,7 +10,7 @@ namespace CS_Module1_HW_Clinic
             int amountPeopleInClinic;
             int hoursToStay;
             int minutesToStay;
-            int minutesInOneHour = 60;
+            const int minutesInOneHour = 60;
             int totalTimeInMinutes;
 
             Console.Write("Сколько людей в очереди вы видите? ");
