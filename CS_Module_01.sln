@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorsAndLoops", "Operat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Module1_HW_Pictures", "CS_Module1_HW_Pictures\CS_Module1_HW_Pictures.csproj", "{C3BEA7A2-A672-4AFE-94B5-A9725476FB7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Module1_HW_Plases", "CS_Module1_HW_Plases\CS_Module1_HW_Plases.csproj", "{603DD045-17DD-4056-8D90-2948A7AA62FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C3BEA7A2-A672-4AFE-94B5-A9725476FB7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3BEA7A2-A672-4AFE-94B5-A9725476FB7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3BEA7A2-A672-4AFE-94B5-A9725476FB7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{603DD045-17DD-4056-8D90-2948A7AA62FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{603DD045-17DD-4056-8D90-2948A7AA62FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{603DD045-17DD-4056-8D90-2948A7AA62FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{603DD045-17DD-4056-8D90-2948A7AA62FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
