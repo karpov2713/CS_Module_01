@@ -334,8 +334,7 @@ namespace OperatorsAndLoops
 
             Console.WriteLine($"Итоговый баланс: валюта X = {balanceOf_X}, валюта Y = {balanceOf_Y}.");*/
 
-            // Кратные числа
-            
+            // ДЗ. Кратные числа
             /*int number;
             int startOfRange = 1;
             int finishOfRange = 28;
@@ -362,6 +361,26 @@ namespace OperatorsAndLoops
                 }
             }
             Console.WriteLine($"Количество трехзначных натуральных чисел кратных {number} = {sumOfNumbers}.");*/
+
+            // ДЗ. Степень двойки.
+            /*Random random = new Random();
+            int number = random.Next(0, 1000);
+            int twoToDegree = 1;
+            int powerOfTwo = 0;
+
+            do
+            {
+                if (number == 0)
+                {
+                    break;
+                }
+
+                powerOfTwo++;
+                twoToDegree *= 2;
+
+            } while (number >= twoToDegree);
+
+            Console.WriteLine($"Число = {number}, степень = {powerOfTwo}, 2**{powerOfTwo} = {twoToDegree}.");*/
         }
     }
 }
