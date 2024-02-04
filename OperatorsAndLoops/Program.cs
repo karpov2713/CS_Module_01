@@ -212,6 +212,18 @@ namespace OperatorsAndLoops
             {
                 Console.WriteLine("Гладиатор 2 пал.");
             }*/
+
+            // Работа с консолью
+            /*Console.SetCursorPosition(5, 10);
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.BackgroundColor = ConsoleColor.DarkGray;
+            Console.Clear();
+            Console.SetCursorPosition(2, 4);
+            Console.WindowHeight = 20;
+            Console.WindowWidth = 40;
+            Console.WriteLine("Привет, Андрей!\nКуда ты вчера делся?\nЯ убежал к ...]/b /b");*/
+
+
         }
     }
 }
