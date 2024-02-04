@@ -224,7 +224,7 @@ namespace OperatorsAndLoops
             Console.WriteLine("Привет, Андрей!\nКуда ты вчера делся?\nЯ убежал к ...]/b /b");*/
 
             // ДЗ. Освоение циклов
-            string message;
+            /*string message;
             int messageCount;
 
             Console.Write("Добрый день. Какое сообщение вывести? ");
@@ -236,7 +236,35 @@ namespace OperatorsAndLoops
             for (int i = 0; i < messageCount; i++)
             {
                 Console.WriteLine(message);
+            }*/
+
+            // ДЗ. Контроль выхода из цикла.
+            /*string message;
+
+            while (true)
+            {
+                Console.WriteLine("Введите ваше сообщение.");
+                Console.WriteLine("Для выхода из программы введите: exit.");
+                message = Console.ReadLine();
+
+                if (message == "exit")
+                {
+                    break;
+                }
+            }*/
+
+            // ДЗ. Последовательность.
+            int firstNumber = 5;
+            int step = 7;
+            int lastNumber = 96;
+            
+            // Цикл FOR(){} выбран, т.к. является параметрическим.
+            // В нашей задаче, четко указаны параметры и этот цикл наиболее подходящий.
+            for (int i = firstNumber;  i <= lastNumber; i+=step) 
+            {
+                Console.Write(i + " ");
             }
+
         }
     }
 }
