@@ -163,7 +163,7 @@ namespace OperatorsAndLoops
             Console.WriteLine($"Мы загадали число от 0 до 100, оно больше чем {lower}, но меньше чем {higher}");
             Console.WriteLine($"Что это за число? У вас {triesCount} попыток отгадать.");
 
-            while (triesCount -- > 0)
+            while (triesCount-- > 0)
             {
                 Console.WriteLine("Ваш ответ: ");
                 userInput = Convert.ToInt32( Console.ReadLine() );
