@@ -254,16 +254,17 @@ namespace OperatorsAndLoops
             }*/
 
             // ДЗ. Последовательность.
-            int firstNumber = 5;
+            /*int firstNumber = 5;
             int step = 7;
             int lastNumber = 96;
-            
+
             // Цикл FOR(){} выбран, т.к. является параметрическим.
             // В нашей задаче, четко указаны параметры и этот цикл наиболее подходящий.
-            for (int i = firstNumber;  i <= lastNumber; i+=step) 
+            for (int i = firstNumber; i <= lastNumber; i += step)
             {
                 Console.Write(i + " ");
-            }
+            }*/
+
 
         }
     }
