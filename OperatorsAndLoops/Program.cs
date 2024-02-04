@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -119,7 +120,20 @@ namespace OperatorsAndLoops
                 }
             }*/
 
-            
+            // RANDOM
+            Random random = new Random();
+
+
+            while (true)
+            {
+                int value = random.Next(0, 10);
+                Console.Write(value);
+                Console.ReadKey();
+                if (value == 7)
+                {
+                    break;
+                }
+            }
         }
     }
 }
