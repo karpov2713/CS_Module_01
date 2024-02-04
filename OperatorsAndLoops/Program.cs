@@ -334,7 +334,34 @@ namespace OperatorsAndLoops
 
             Console.WriteLine($"Итоговый баланс: валюта X = {balanceOf_X}, валюта Y = {balanceOf_Y}.");*/
 
+            // Кратные числа
+            
+            /*int number;
+            int startOfRange = 1;
+            int finishOfRange = 28;
+            int sumOfNumbers = 0;
+            int firstNumber = 100;
+            int lastNumber = 1000;
 
+            Random random = new Random();
+
+            number = random.Next(startOfRange, finishOfRange);
+            Console.WriteLine("N = " + number);
+
+            for (int i = 0; i < lastNumber; i += number)
+            {
+
+                if (i < firstNumber)
+                {
+                    Console.WriteLine("Число " + i + " - не трехзначное число.");
+                }
+                else if (i >= firstNumber)
+                {
+                    Console.WriteLine("Число " + i + " - трехзначное кратное число.");
+                    sumOfNumbers++;
+                }
+            }
+            Console.WriteLine($"Количество трехзначных натуральных чисел кратных {number} = {sumOfNumbers}.");*/
         }
     }
 }
