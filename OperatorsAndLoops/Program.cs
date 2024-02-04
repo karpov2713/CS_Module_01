@@ -122,16 +122,20 @@ namespace OperatorsAndLoops
 
             // RANDOM
             Random random = new Random();
+            int numberForExit;
 
+            Console.Write("Введите число 0 до 9 для выхода из цикла: ");
+            numberForExit = Convert.ToInt32(Console.ReadLine());
 
             while (true)
             {
                 int value = random.Next(0, 10);
                 Console.Write(value);
                 Console.ReadKey();
-                if (value == 7)
+
+                if (value == numberForExit)
                 {
-                    break;
+                    break; // Выходим из while при value = 7
                 }
             }
         }
