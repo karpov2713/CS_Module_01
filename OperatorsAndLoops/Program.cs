@@ -147,6 +147,37 @@ namespace OperatorsAndLoops
             {
                 Console.WriteLine(random.Next(0, 10));
             }*/
+
+            // Игра УГАДАЙ ЧИСЛО
+            /*Random random = new Random();
+            int number;
+            int lower;
+            int higher;
+            int triesCount = 5;
+            int userInput;
+
+            number = random.Next(0, 101);
+            lower = random.Next(number - 10, number);
+            higher = random.Next(number + 1, number + 10);
+
+            Console.WriteLine($"Мы загадали число от 0 до 100, оно больше чем {lower}, но меньше чем {higher}");
+            Console.WriteLine($"Что это за число? У вас {triesCount} попыток отгадать.");
+
+            while (triesCount -- > 0)
+            {
+                Console.WriteLine("Ваш ответ: ");
+                userInput = Convert.ToInt32( Console.ReadLine() );
+                if(userInput == number)
+                {
+                    Console.WriteLine("Вы правы, это число " + number + ".");
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Не верно, попробуйте ещё раз.");
+                }
+            }
+            Console.WriteLine("Это было число " + number + ".");*/
         }
     }
 }
