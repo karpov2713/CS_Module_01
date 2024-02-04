@@ -381,6 +381,37 @@ namespace OperatorsAndLoops
             } while (number >= twoToDegree);
 
             Console.WriteLine($"Число = {number}, степень = {powerOfTwo}, 2**{powerOfTwo} = {twoToDegree}.");*/
+
+            // ДЗ. Вывод имени
+            /*int lengthOfName;
+            string specialName;
+
+            Console.WriteLine("Введите ваше имя: ");
+            string name = Console.ReadLine();
+            
+            Console.WriteLine("Введите символ: ");
+            char symbol = Convert.ToChar(Console.Read());
+
+            lengthOfName = name.Length;
+            specialName = symbol + name + symbol;
+
+            for (int i = 0; i < 3; i++)
+            {
+                if (i == 1)
+                {
+                    Console.WriteLine(specialName);
+                }
+                else
+                {
+                    for (int j = 0; j < lengthOfName + 2; j++)
+                    {
+                        Console.Write(symbol);
+                    }
+                    Console.WriteLine();
+                }
+            }*/
+
+
         }
     }
 }
