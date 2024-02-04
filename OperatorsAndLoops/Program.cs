@@ -223,7 +223,20 @@ namespace OperatorsAndLoops
             Console.WindowWidth = 40;
             Console.WriteLine("Привет, Андрей!\nКуда ты вчера делся?\nЯ убежал к ...]/b /b");*/
 
+            // ДЗ. Освоение циклов
+            string message;
+            int messageCount;
 
+            Console.Write("Добрый день. Какое сообщение вывести? ");
+            message = Console.ReadLine();
+
+            Console.Write("Сколько раз вывести сообщение? ");
+            messageCount = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 0; i < messageCount; i++)
+            {
+                Console.WriteLine(message);
+            }
         }
     }
 }
