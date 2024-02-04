@@ -11,10 +11,8 @@ namespace OperatorsAndLoops
     {
         static void Main(string[] args)
         {
-            Console.OutputEncoding = Encoding.Unicode;
-            Console.InputEncoding = Encoding.Unicode;
-
-            /*int age;
+            /* Пример с IF
+            int age;
             Console.Write("Введите свой возраст? ");
             age = Convert.ToInt32(Console.ReadLine());
 
@@ -178,6 +176,42 @@ namespace OperatorsAndLoops
                 }
             }
             Console.WriteLine("Это было число " + number + ".");*/
+
+            // Игра гладиаторские бои
+            /*Random random = new Random();
+
+            float health1 = random.Next(90, 110);
+            int damage1 = random.Next(7, 35);
+            int armor1 = random.Next(25, 100);
+
+            float health2 = random.Next(80, 120);
+            int damage2 = random.Next(5, 40);
+            int armor2 = random.Next(65, 100);
+
+            Console.WriteLine($"Гладиатор 1 - {health1} здоровья, {damage1} наносимый урон, {armor1} защита.");
+            Console.WriteLine($"Гладиатор 2 - {health2} здоровья, {damage2} наносимый урон, {armor2} защита.");
+
+            while (health1 > 0 && health2 > 0)
+            {
+                health1 -= Convert.ToSingle(random.Next(0, damage2 + 1)) / 100 * armor1;
+                health2 -= Convert.ToSingle(random.Next(0, damage1 + 1)) / 100 * armor2;
+
+                Console.WriteLine("Здоровье гладиатора 1: " + health1);
+                Console.WriteLine("Здоровье гладиатора 2: " + health2);
+            }
+
+            if (health1 <= 0 && health2 <=0)
+            {
+                Console.WriteLine("Ничья. Оба гладиатора погибли.");
+            }
+            else if (health1 <= 0)
+            {
+                Console.WriteLine("Гладиатор 1 пал.");
+            }
+            else if (health2 <= 0)
+            {
+                Console.WriteLine("Гладиатор 2 пал.");
+            }*/
         }
     }
 }
