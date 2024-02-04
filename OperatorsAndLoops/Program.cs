@@ -121,7 +121,7 @@ namespace OperatorsAndLoops
             }*/
 
             // RANDOM
-            Random random = new Random();
+            /*Random random = new Random();
             int numberForExit;
 
             Console.Write("Введите число 0 до 9 для выхода из цикла: ");
@@ -131,13 +131,22 @@ namespace OperatorsAndLoops
             {
                 int value = random.Next(0, 10);
                 Console.Write(value);
-                Console.ReadKey();
+                Console.ReadKey(); // Прерываем цикл для новой итерации
 
                 if (value == numberForExit)
                 {
                     break; // Выходим из while при value = 7
+
                 }
-            }
+            }*/
+
+            // Random с циклом FOR
+            /*Random random = new Random();
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine(random.Next(0, 10));
+            }*/
         }
     }
 }
