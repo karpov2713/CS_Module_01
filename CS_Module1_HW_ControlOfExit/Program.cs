@@ -7,18 +7,16 @@ namespace CS_Module1_HW_ControlOfExit
         static void Main(string[] args)
         {
             string message;
+            Console.WriteLine("Введите ваше сообщение.");
+            message = Console.ReadLine();
 
-            while (true)
+            do
             {
-                Console.WriteLine("Введите ваше сообщение.");
-                Console.WriteLine("Для выхода из программы введите: \"exit\" или \"выход\".");
+                Console.WriteLine(message);
+                Console.WriteLine("Для выхода из программы введите : exit.");
                 message = Console.ReadLine();
 
-                if (message == "exit" || message == "выход")
-                {
-                    break;
-                }
-            }
+            }while (message != "exit");
         }
     }
 }

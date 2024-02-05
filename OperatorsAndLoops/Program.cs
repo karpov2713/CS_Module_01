@@ -239,7 +239,7 @@ namespace OperatorsAndLoops
             }*/
 
             // ДЗ. Контроль выхода из цикла.
-            string message;
+            /*string message;
 
             while (true)
             {
@@ -251,7 +251,7 @@ namespace OperatorsAndLoops
                 {
                     break;
                 }
-            }
+            }*/
 
             // ДЗ. Последовательность.
             /*int firstNumber = 5;

@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Module1_HW_Crystals", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Module1_HW_Clinic", "CS_Module1_HW_Clinic\CS_Module1_HW_Clinic.csproj", "{9CFF1D68-87CE-497A-83E0-2C311173FC42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{F2B7A3D5-E5DC-4A2A-B9AB-5A0CC5DD8B08}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Module1_HW_Loops", "Loops\CS_Module1_HW_Loops.csproj", "{F2B7A3D5-E5DC-4A2A-B9AB-5A0CC5DD8B08}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Module1_HW_ControlOfExit", "CS_Module1_HW_ControlOfExit\CS_Module1_HW_ControlOfExit.csproj", "{0A325C44-651A-4DB9-B2F1-43001DDAFD3F}"
 EndProject
