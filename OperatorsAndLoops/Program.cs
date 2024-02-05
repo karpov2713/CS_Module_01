@@ -412,7 +412,7 @@ namespace OperatorsAndLoops
             }*/
 
             // ДЗ. Скобочное выражение
-            string expression;
+            /*string expression;
             int leftSymbol = 0;
             int rightSymbol = 0;
             int enclousure = 0;
@@ -436,7 +436,7 @@ namespace OperatorsAndLoops
             if (enclousure != 0) 
             { 
                 isCorrect = false;
-            }
+            }*/
         }
     }
 }
