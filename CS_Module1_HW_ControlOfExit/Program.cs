@@ -13,7 +13,7 @@ namespace CS_Module1_HW_ControlOfExit
             do
             {
                 Console.WriteLine(message);
-                Console.WriteLine("Для выхода из программы введите : exit.");
+                Console.WriteLine("Введите ваше сообщение. Для выхода из программы введите: exit.");
                 message = Console.ReadLine();
 
             }while (message != "exit");
