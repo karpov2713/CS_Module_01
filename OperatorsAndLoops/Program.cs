@@ -269,7 +269,8 @@ namespace OperatorsAndLoops
             Random random = new Random();
 
             int number;
-            number = random.Next(0, 100);
+            int maxValue = 100;
+            number = random.Next(0, maxValue);
             int sumOfDivisible_3 = 0;
             int sumOfDivisible_5 = 0;
             int sumOfDiv3AndDiv5 = 0;
