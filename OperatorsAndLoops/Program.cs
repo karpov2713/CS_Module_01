@@ -225,15 +225,15 @@ namespace OperatorsAndLoops
 
             // ДЗ. Освоение циклов
             /*string message;
-            int messageCount;
+            int amountOfMessages;
 
             Console.Write("Добрый день. Какое сообщение вывести? ");
             message = Console.ReadLine();
 
             Console.Write("Сколько раз вывести сообщение? ");
-            messageCount = Convert.ToInt32(Console.ReadLine());
+            amountOfMessages = Convert.ToInt32(Console.ReadLine());
 
-            for (int i = 0; i < messageCount; i++)
+            for (int i = 0; i < amountOfMessages; i++)
             {
                 Console.WriteLine(message);
             }*/
