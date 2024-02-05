@@ -10,16 +10,15 @@ namespace CS_Module1_HW_ControlOfExit
             string wordToExit;
 
             Console.WriteLine("Введите ваше сообщение.");
+            Console.WriteLine("Для выхода введите \"exit\".");
             message = Console.ReadLine();
             wordToExit = "exit";
 
-            do
+            while (message != wordToExit)
             {
                 Console.WriteLine(message);
-                Console.WriteLine("Введите ваше сообщение. Для выхода из программы введите: exit.");
                 message = Console.ReadLine();
-
-            } while (message != wordToExit);
+            }
         }
     }
 }
