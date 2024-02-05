@@ -266,7 +266,7 @@ namespace OperatorsAndLoops
             }*/
 
             // ДЗ. Сумма чисел
-            /*Random random = new Random();
+            Random random = new Random();
 
             int number;
             number = random.Next(0, 100);
@@ -274,7 +274,7 @@ namespace OperatorsAndLoops
             int sumOfDivisible_5 = 0;
             int sumOfDiv3AndDiv5 = 0;
 
-            for (int i = 0; i <= number; i++) 
+            for (int i = 0; i <= number; i++)
             {
                 if (i % 3 == 0)
                 {
@@ -290,7 +290,7 @@ namespace OperatorsAndLoops
             Console.WriteLine($"Случайное число = {number}.");
             Console.WriteLine($"Сумма чисел кратных 3 = {sumOfDivisible_3}.");
             Console.WriteLine($"Сумма чисел кратных 5 = {sumOfDivisible_5}.");
-            Console.WriteLine($"Общая сумма кратных чисел = {sumOfDiv3AndDiv5}.");*/
+            Console.WriteLine($"Общая сумма кратных чисел = {sumOfDiv3AndDiv5}.");
 
             // ДЗ. Конвертер валют
             /*int balanceOf_X = 1000;
