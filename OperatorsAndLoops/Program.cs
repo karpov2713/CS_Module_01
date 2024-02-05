@@ -240,17 +240,17 @@ namespace OperatorsAndLoops
 
             // ДЗ. Контроль выхода из цикла.
             /*string message;
+            string wordToExit;
 
-            while (true)
+            Console.WriteLine("Введите ваше сообщение.");
+            Console.WriteLine("Для выхода введите \"exit\".");
+            message = Console.ReadLine();
+            wordToExit = "exit";
+
+            while (message != wordToExit)
             {
-                Console.WriteLine("Введите ваше сообщение.");
-                Console.WriteLine("Для выхода из программы введите: \"exit\" или \"выход\".");
+                Console.WriteLine(message);
                 message = Console.ReadLine();
-
-                if (message == "exit" || message == "выход")
-                {
-                    break;
-                }
             }*/
 
             // ДЗ. Последовательность.
