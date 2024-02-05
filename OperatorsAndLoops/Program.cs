@@ -239,19 +239,19 @@ namespace OperatorsAndLoops
             }*/
 
             // ДЗ. Контроль выхода из цикла.
-            /*string message;
+            string message;
 
             while (true)
             {
                 Console.WriteLine("Введите ваше сообщение.");
-                Console.WriteLine("Для выхода из программы введите: exit.");
+                Console.WriteLine("Для выхода из программы введите: \"exit\" или \"выход\".");
                 message = Console.ReadLine();
 
-                if (message == "exit")
+                if (message == "exit" || message == "выход")
                 {
                     break;
                 }
-            }*/
+            }
 
             // ДЗ. Последовательность.
             /*int firstNumber = 5;
