@@ -411,7 +411,32 @@ namespace OperatorsAndLoops
                 }
             }*/
 
+            // ДЗ. Скобочное выражение
+            string expression;
+            int leftSymbol = 0;
+            int rightSymbol = 0;
+            int enclousure = 0;
+            bool isCorrect = true;
 
+            Console.WriteLine("Введите скобочное выражение: ");
+            expression = "(()()((())))(";
+
+            foreach (var symbol in expression)
+            {
+                if (symbol == 40)
+                {
+                    enclousure++;
+                }
+                else if (symbol == 41)
+                {
+                    enclousure--;
+                }
+            }
+
+            if (enclousure != 0) 
+            { 
+                isCorrect = false;
+            }
         }
     }
 }
