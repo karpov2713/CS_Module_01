@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Module1_HW_Loops", "Loop
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Module1_HW_ControlOfExit", "CS_Module1_HW_ControlOfExit\CS_Module1_HW_ControlOfExit.csproj", "{0A325C44-651A-4DB9-B2F1-43001DDAFD3F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Module1_HW_Sequence", "CS_Module1_HW_Sequence\CS_Module1_HW_Sequence.csproj", "{F5D8D5D1-0860-4592-9950-4F76BB49C3C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{0A325C44-651A-4DB9-B2F1-43001DDAFD3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A325C44-651A-4DB9-B2F1-43001DDAFD3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A325C44-651A-4DB9-B2F1-43001DDAFD3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5D8D5D1-0860-4592-9950-4F76BB49C3C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5D8D5D1-0860-4592-9950-4F76BB49C3C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5D8D5D1-0860-4592-9950-4F76BB49C3C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5D8D5D1-0860-4592-9950-4F76BB49C3C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
