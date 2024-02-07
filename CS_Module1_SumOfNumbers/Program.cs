@@ -9,16 +9,16 @@ namespace CS_Module1_SumOfNumbers
             Random random = new Random();
 
             int number;
-            int maxValue = 101;
+            int maxValue = 100;
             int sumOfDivisibleNumbers = 0;
-            int numberThree = 3;
-            int numberFive = 5;
+            int divider1 = 3;
+            int divider2 = 5;
 
-            number = random.Next(0, maxValue);
+            number = random.Next(maxValue + 1);
 
             for (int i = 0; i <= number; i++)
             {
-                if (i % numberThree == 0 || i % numberFive == 0)
+                if (i % divider1 == 0 || i % divider2 == 0)
                 {
                     sumOfDivisibleNumbers += i;
                 }
