@@ -45,58 +45,53 @@ namespace CurrencyExchange
                 switch ( userInput )
                 {
                     case CommandConversionXtoY:
-
                         Console.WriteLine("Сколько вы хотите обменять? ");
                         amountForConversion = Convert.ToInt32(Console.ReadLine());
-
                         balanceOfCurrencyX -= conversionRate_X_To_Y * amountForConversion;
                         balanceOfCurrencyY += conversionRate_X_To_Y * amountForConversion;
                         break;
-                    case CommandConversionYtoX:
 
+                    case CommandConversionYtoX:
                         Console.WriteLine("Сколько вы хотите обменять? ");
                         amountForConversion = Convert.ToInt32(Console.ReadLine());
-
                         balanceOfCurrencyY -= conversionRate_Y_To_X * amountForConversion;
                         balanceOfCurrencyX += conversionRate_Y_To_X * amountForConversion;
                         break;
-                    case CommandConversionXtoZ:
 
+                    case CommandConversionXtoZ:
                         Console.WriteLine("Сколько вы хотите обменять? ");
                         amountForConversion = Convert.ToInt32(Console.ReadLine());
-
                         balanceOfCurrencyX -= conversionRate_X_To_Z * amountForConversion;
                         balanceOfCurrencyZ += conversionRate_X_To_Z * amountForConversion;
                         break;
-                    case CommandConversionZtoX:
 
+                    case CommandConversionZtoX:
                         Console.WriteLine("Сколько вы хотите обменять? ");
                         amountForConversion = Convert.ToInt32(Console.ReadLine());
-
                         balanceOfCurrencyZ -= conversionRate_Z_To_X * amountForConversion;
                         balanceOfCurrencyX += conversionRate_Z_To_X * amountForConversion;
                         break;
-                    case CommandConversionYtoZ:
 
+                    case CommandConversionYtoZ:
                         Console.WriteLine("Сколько вы хотите обменять? ");
                         amountForConversion = Convert.ToInt32(Console.ReadLine());
-
                         balanceOfCurrencyY -= conversionRate_Y_To_Z * amountForConversion;
                         balanceOfCurrencyZ += conversionRate_Y_To_Z * amountForConversion;
                         break;
-                    case CommandConversionZtoY:
 
+                    case CommandConversionZtoY:
                         Console.WriteLine("Сколько вы хотите обменять? ");
                         amountForConversion = Convert.ToInt32(Console.ReadLine());
-
                         balanceOfCurrencyZ -= conversionRate_Z_To_Y * amountForConversion;
                         balanceOfCurrencyY += conversionRate_Z_To_Y * amountForConversion;
                         break;
+
                     case CommandExit:
                         Console.WriteLine("Выход из программы.");
                         isWork = false;
                         break;
                 }
+
             }
 
             Console.WriteLine($"Итоговый баланс: валюта X = {balanceOfCurrencyX}, валюта Y = {balanceOfCurrencyY}, валюта Z = {balanceOfCurrencyZ}.");
