@@ -38,7 +38,6 @@ namespace CurrencyExchange
                 Console.WriteLine($"{CommandConversionZtoX} - Конвертация валюты Z в X.");
                 Console.WriteLine($"{CommandConversionYtoZ} - Конвертация валюты Y в Z.");
                 Console.WriteLine($"{CommandConversionZtoY} - Конвертация валюты Z в Y.");
-
                 Console.WriteLine($"{CommandExit} - Выход из программы.");
                 userInput = Console.ReadLine();
 
