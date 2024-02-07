@@ -433,6 +433,8 @@ namespace OperatorsAndLoops
             }*/
 
             // ДЗ. Консольное меню
+            // См. проект ConsoleMenu
+
 
         }
     }
