@@ -286,10 +286,9 @@ namespace OperatorsAndLoops
 
             Console.WriteLine($"Случайное число = {number}. Общая сумма кратных чисел = {sumOfDivisibleNumbers}.");*/
 
-
             // ДЗ. Конвертер валют
-            /*int balanceOf_X = 1000;
-            int balanceOf_Y = 1000;
+            int balanceOfCurrencyX = 1000;
+            int balanceOfCurrencyY = 1000;
             int conversionRate_X_To_Y = 35;
             int conversionRate_Y_To_X = 42;
             string operation;
@@ -297,25 +296,25 @@ namespace OperatorsAndLoops
 
             while (true)
             {
-                Console.WriteLine($"Текущий баланс: валюта X = {balanceOf_X}, валюта Y = {balanceOf_Y}.");
+                Console.WriteLine($"Текущий баланс: валюта X = {balanceOfCurrencyX}, валюта Y = {balanceOfCurrencyY}.");
                 Console.WriteLine("Введите код операции: 1 - обмен X на Y, 2 - обмен Y на X, exit - выход из программы.");
                 operation = Console.ReadLine();
 
-                if (operation == "1") 
+                if (operation == "1")
                 {
                     Console.WriteLine("Какую сумму желаете обменять? ");
                     amountForConversion = Convert.ToInt32(Console.ReadLine());
 
-                    balanceOf_Y += amountForConversion * conversionRate_X_To_Y;
-                    balanceOf_X -= amountForConversion * conversionRate_X_To_Y;
+                    balanceOfCurrencyX += amountForConversion * conversionRate_X_To_Y;
+                    balanceOfCurrencyY -= amountForConversion * conversionRate_X_To_Y;
                 }
                 else if (operation == "2")
                 {
                     Console.WriteLine("Какую сумму желаете обменять? ");
                     amountForConversion = Convert.ToInt32(Console.ReadLine());
 
-                    balanceOf_X += amountForConversion * conversionRate_Y_To_X;
-                    balanceOf_Y -= amountForConversion * conversionRate_Y_To_X;
+                    balanceOfCurrencyX += amountForConversion * conversionRate_Y_To_X;
+                    balanceOfCurrencyY -= amountForConversion * conversionRate_Y_To_X;
                 }
                 else if (operation == "exit")
                 {
@@ -327,7 +326,7 @@ namespace OperatorsAndLoops
                 }
             }
 
-            Console.WriteLine($"Итоговый баланс: валюта X = {balanceOf_X}, валюта Y = {balanceOf_Y}.");*/
+            Console.WriteLine($"Итоговый баланс: валюта X = {balanceOfCurrencyX}, валюта Y = {balanceOfCurrencyY}.");
 
             // ДЗ. Кратные числа
             /*int number;
