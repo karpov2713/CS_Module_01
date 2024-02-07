@@ -8,15 +8,17 @@ namespace CS_Module1_SumOfNumbers
         {
             Random random = new Random();
 
-            float number;
+            int number;
             int maxValue = 101;
             int sumOfDivisibleNumbers = 0;
+            const int dividerOnThree = 3;
+            const int dividerOnFive = 5;
 
             number = random.Next(0, maxValue);
 
             for (int i = 0; i <= number; i++)
             {
-                if (i % 3 == 0 || i % 5 == 0)
+                if (i % dividerOnThree == 0 || i % dividerOnFive == 0)
                 {
                     sumOfDivisibleNumbers += i;
                 }
