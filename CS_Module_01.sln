@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Module1_SumOfNumbers", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CW_Module1_HW_CurrencyExchange", "CurrencyExchange\CW_Module1_HW_CurrencyExchange.csproj", "{471A05D9-2464-4F91-B42C-DFFFCE22DDA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Module1_HW_ConsoleMenu", "CS_Module1_HW_ConsoleMenu\CS_Module1_HW_ConsoleMenu.csproj", "{687643D3-5315-4F5B-9385-9DD176F8BEEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{471A05D9-2464-4F91-B42C-DFFFCE22DDA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{471A05D9-2464-4F91-B42C-DFFFCE22DDA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{471A05D9-2464-4F91-B42C-DFFFCE22DDA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{687643D3-5315-4F5B-9385-9DD176F8BEEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{687643D3-5315-4F5B-9385-9DD176F8BEEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{687643D3-5315-4F5B-9385-9DD176F8BEEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{687643D3-5315-4F5B-9385-9DD176F8BEEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
