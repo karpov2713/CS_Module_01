@@ -24,7 +24,6 @@ namespace CS_Module1_HW_ConsoleMenu
 
             while (isWork)
             {
-
                 Console.WriteLine($"{CommandSetLogin} - Ввод логина.");
                 Console.WriteLine($"{CommandSetPassword} - Ввод пароля.");
                 Console.WriteLine($"{CommandWriteLogin} - Просмотр логина.");
