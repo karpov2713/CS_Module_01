@@ -269,31 +269,22 @@ namespace OperatorsAndLoops
             /*Random random = new Random();
 
             int number;
-            int maxValue = 101;
-            int sumOfDivisible_3 = 0;
-            int sumOfDivisible_5 = 0;
-            int sumOfDiv3AndDiv5 = 0;
-            int figure_3 = 3;
-            int figure_5 = 5;
+            int maxValue = 100;
+            int sumOfDivisibleNumbers = 0;
+            int divider1 = 3;
+            int divider2 = 5;
 
-            number = random.Next(0, maxValue);
+            number = random.Next(maxValue + 1);
 
             for (int i = 0; i <= number; i++)
             {
-                if (i % figure_3 == 0)
+                if (i % divider1 == 0 || i % divider2 == 0)
                 {
-                    sumOfDivisible_3 += i;
+                    sumOfDivisibleNumbers += i;
                 }
-                else if (i % figure_5 == 0)
-                {
-                    sumOfDivisible_5 += i;
-                }
-
-                sumOfDiv3AndDiv5 = sumOfDivisible_3 + sumOfDivisible_5;
             }
 
-            Console.WriteLine($"Случайное число = {number}.");
-            Console.WriteLine($"Общая сумма кратных чисел = {sumOfDiv3AndDiv5}.");*/
+            Console.WriteLine($"Случайное число = {number}. Общая сумма кратных чисел = {sumOfDivisibleNumbers}.");*/
 
 
             // ДЗ. Конвертер валют
