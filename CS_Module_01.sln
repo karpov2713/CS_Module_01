@@ -25,7 +25,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Module1_HW_Sequence", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Module1_SumOfNumbers", "CS_Module1_SumOfNumbers\CS_Module1_SumOfNumbers.csproj", "{F3DEF592-65C8-43F3-BF81-F2A25E368530}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyExchange", "CurrencyExchange\CurrencyExchange.csproj", "{471A05D9-2464-4F91-B42C-DFFFCE22DDA1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CW_Module1_HW_CurrencyExchange", "CurrencyExchange\CW_Module1_HW_CurrencyExchange.csproj", "{471A05D9-2464-4F91-B42C-DFFFCE22DDA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

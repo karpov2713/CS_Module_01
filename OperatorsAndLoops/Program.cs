@@ -287,7 +287,7 @@ namespace OperatorsAndLoops
             Console.WriteLine($"Случайное число = {number}. Общая сумма кратных чисел = {sumOfDivisibleNumbers}.");*/
 
             // ДЗ. Конвертер валют
-            int balanceOfCurrencyX = 1000;
+            /*int balanceOfCurrencyX = 1000;
             int balanceOfCurrencyY = 1000;
             int conversionRate_X_To_Y = 35;
             int conversionRate_Y_To_X = 42;
@@ -326,7 +326,7 @@ namespace OperatorsAndLoops
                 }
             }
 
-            Console.WriteLine($"Итоговый баланс: валюта X = {balanceOfCurrencyX}, валюта Y = {balanceOfCurrencyY}.");
+            Console.WriteLine($"Итоговый баланс: валюта X = {balanceOfCurrencyX}, валюта Y = {balanceOfCurrencyY}.");*/
 
             // ДЗ. Кратные числа
             /*int number;
@@ -431,6 +431,9 @@ namespace OperatorsAndLoops
             { 
                 isCorrect = false;
             }*/
+
+            // ДЗ. Консольное меню
+
         }
     }
 }
