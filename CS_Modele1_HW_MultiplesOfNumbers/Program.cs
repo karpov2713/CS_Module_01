@@ -6,14 +6,14 @@ namespace CS_Module1_HW_MultiplesOfNumbers
     {
         static void Main(string[] args)
         {
+            Random random = new Random();
+            
             int number;
             int startOfRange = 1;
             int finishOfRange = 27;
             int sumOfNumbers = 0;
             int firstNumber = 100;
             int lastNumber = 1000;
-
-            Random random = new Random();
 
             number = random.Next(startOfRange, finishOfRange + 1);
             Console.WriteLine($"N = {number}.");
