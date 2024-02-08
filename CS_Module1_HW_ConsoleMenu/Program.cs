@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CS_Module1_HW_ConsoleMenu
 {
@@ -39,28 +35,36 @@ namespace CS_Module1_HW_ConsoleMenu
                         Console.Write("Введите логин: ");
                         userLogin = Console.ReadLine();
                         break;
+
                     case CommandSetPassword:
                         Console.Write("Введите пароль: ");
                         userPassword = Console.ReadLine();
                         break;
+
                     case CommandWriteLogin:
                         Console.WriteLine($"Логин - {userLogin}");
                         break;
+
                     case CommandWritePassword:
                         Console.WriteLine($"Пароль - {userPassword}");
                         break;
+
                     case CommandClearConsole:
                         Console.Clear();
                         break;
+
                     case CommandExit:
                         isWork = false;
                         Console.WriteLine("Выход из программы");
                         break;
+
                     default:
                         Console.WriteLine("Такой команды нет");
                         break;
                 }
+
             }
+
         }
     }
 }

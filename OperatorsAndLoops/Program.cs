@@ -214,14 +214,7 @@ namespace OperatorsAndLoops
             }*/
 
             // Работа с консолью
-            /*Console.SetCursorPosition(5, 10);
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.BackgroundColor = ConsoleColor.DarkGray;
-            Console.Clear();
-            Console.SetCursorPosition(2, 4);
-            Console.WindowHeight = 20;
-            Console.WindowWidth = 40;
-            Console.WriteLine("Привет, Андрей!\nКуда ты вчера делся?\nЯ убежал к ...]/b /b");*/
+            // См. проект CS_Module1_HW_ConsoleMenu
 
             // ДЗ. Освоение циклов
             /*string message;
@@ -339,33 +332,7 @@ namespace OperatorsAndLoops
             Console.WriteLine($"Число = {number}, степень = {powerOfTwo}, 2**{powerOfTwo} = {twoToDegree}.");*/
 
             // ДЗ. Вывод имени
-            /*int lengthOfName;
-            string specialName;
-
-            Console.WriteLine("Введите ваше имя: ");
-            string name = Console.ReadLine();
             
-            Console.WriteLine("Введите символ: ");
-            char symbol = Convert.ToChar(Console.Read());
-
-            lengthOfName = name.Length;
-            specialName = symbol + name + symbol;
-
-            for (int i = 0; i < 3; i++)
-            {
-                if (i == 1)
-                {
-                    Console.WriteLine(specialName);
-                }
-                else
-                {
-                    for (int j = 0; j < lengthOfName + 2; j++)
-                    {
-                        Console.Write(symbol);
-                    }
-                    Console.WriteLine();
-                }
-            }*/
 
             // ДЗ. Скобочное выражение
             /*string expression;

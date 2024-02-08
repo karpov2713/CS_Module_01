@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CW_Module1_HW_CurrencyExcha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Module1_HW_ConsoleMenu", "CS_Module1_HW_ConsoleMenu\CS_Module1_HW_ConsoleMenu.csproj", "{687643D3-5315-4F5B-9385-9DD176F8BEEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameOutput", "NameOutput\NameOutput.csproj", "{7F6E5E41-C695-4D0A-B365-79A3D9E4D2B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{687643D3-5315-4F5B-9385-9DD176F8BEEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{687643D3-5315-4F5B-9385-9DD176F8BEEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{687643D3-5315-4F5B-9385-9DD176F8BEEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F6E5E41-C695-4D0A-B365-79A3D9E4D2B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F6E5E41-C695-4D0A-B365-79A3D9E4D2B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F6E5E41-C695-4D0A-B365-79A3D9E4D2B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F6E5E41-C695-4D0A-B365-79A3D9E4D2B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
