@@ -6,14 +6,16 @@ namespace NameOutput
     {
         static void Main(string[] args)
         {
+            string name;
+            char symbol;
             int lengthOfName;
             string compoundName;
 
             Console.WriteLine("Введите ваше имя: ");
-            string name = Console.ReadLine();
+            name = Console.ReadLine();
 
             Console.WriteLine("Введите символ: ");
-            char symbol = Convert.ToChar(Console.Read());
+            symbol = Convert.ToChar(Console.Read());
 
             lengthOfName = name.Length;
             compoundName = symbol + name + symbol;
