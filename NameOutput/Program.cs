@@ -9,6 +9,7 @@ namespace NameOutput
             string name;
             char symbol;
             string compoundName;
+            int numberOfRows = 3; 
 
             Console.WriteLine("Введите ваше имя: ");
             name = Console.ReadLine();
@@ -18,7 +19,7 @@ namespace NameOutput
 
             compoundName = symbol + name + symbol;
 
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < numberOfRows; i++)
             {
                 if (i == 1)
                 {
