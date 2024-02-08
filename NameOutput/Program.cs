@@ -8,8 +8,8 @@ namespace NameOutput
         {
             string name;
             char symbol;
-            string compoundName;
-            int numberOfRows = 3; 
+            string middleLine;
+            string frame = "";
 
             Console.WriteLine("Введите ваше имя: ");
             name = Console.ReadLine();
@@ -17,26 +17,16 @@ namespace NameOutput
             Console.WriteLine("Введите символ: ");
             symbol = Convert.ToChar(Console.Read());
 
-            compoundName = symbol + name + symbol;
+            middleLine = symbol + name + symbol;
 
-            for (int i = 0; i < numberOfRows; i++)
+            for (int i = 0; i < middleLine.Length; i++)
             {
-                if (i == 1)
-                {
-                    Console.WriteLine(compoundName);
-                }
-                else
-                {
-                    for (int j = 0; j < compoundName.Length; j++)
-                    {
-                        Console.Write(symbol);
-                    }
-
-                    Console.WriteLine();
-                }
-
+                frame += symbol;
             }
 
+            Console.WriteLine(frame);
+            Console.WriteLine(middleLine);
+            Console.WriteLine(frame);
         }
     }
 }
