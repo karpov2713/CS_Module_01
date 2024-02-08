@@ -8,7 +8,6 @@ namespace NameOutput
         {
             string name;
             char symbol;
-            int lengthOfName;
             string compoundName;
 
             Console.WriteLine("Введите ваше имя: ");
@@ -17,7 +16,6 @@ namespace NameOutput
             Console.WriteLine("Введите символ: ");
             symbol = Convert.ToChar(Console.Read());
 
-            lengthOfName = name.Length;
             compoundName = symbol + name + symbol;
 
             for (int i = 0; i < 3; i++)
@@ -28,7 +26,7 @@ namespace NameOutput
                 }
                 else
                 {
-                    for (int j = 0; j < lengthOfName + 2; j++)
+                    for (int j = 0; j < compoundName.Length; j++)
                     {
                         Console.Write(symbol);
                     }
