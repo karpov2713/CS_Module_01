@@ -29,7 +29,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CW_Module1_HW_CurrencyExcha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Module1_HW_ConsoleMenu", "CS_Module1_HW_ConsoleMenu\CS_Module1_HW_ConsoleMenu.csproj", "{687643D3-5315-4F5B-9385-9DD176F8BEEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameOutput", "NameOutput\NameOutput.csproj", "{7F6E5E41-C695-4D0A-B365-79A3D9E4D2B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Module1_HW_NameOutput", "NameOutput\CS_Module1_HW_NameOutput.csproj", "{7F6E5E41-C695-4D0A-B365-79A3D9E4D2B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
