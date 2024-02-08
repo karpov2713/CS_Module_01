@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Module1_HW_NameOutput", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Module1_HW_ProgramPassword", "ProgramPassword\CS_Module1_HW_ProgramPassword.csproj", "{31D30E00-976D-4471-88FF-F757181E2F8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Modele1_HW_MultiplesOfNumbers", "CS_Modele1_HW_MultiplesOfNumbers\CS_Modele1_HW_MultiplesOfNumbers.csproj", "{72497FB2-85CD-4DD5-8B14-63FA670D8343}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{31D30E00-976D-4471-88FF-F757181E2F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31D30E00-976D-4471-88FF-F757181E2F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31D30E00-976D-4471-88FF-F757181E2F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72497FB2-85CD-4DD5-8B14-63FA670D8343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72497FB2-85CD-4DD5-8B14-63FA670D8343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72497FB2-85CD-4DD5-8B14-63FA670D8343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72497FB2-85CD-4DD5-8B14-63FA670D8343}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

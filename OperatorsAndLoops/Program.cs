@@ -284,32 +284,7 @@ namespace OperatorsAndLoops
             // Отличный результат по отзыву ментора.
 
             // ДЗ. Кратные числа
-            /*int number;
-            int startOfRange = 1;
-            int finishOfRange = 28;
-            int sumOfNumbers = 0;
-            int firstNumber = 100;
-            int lastNumber = 1000;
-
-            Random random = new Random();
-
-            number = random.Next(startOfRange, finishOfRange);
-            Console.WriteLine("N = " + number);
-
-            for (int i = 0; i < lastNumber; i += number)
-            {
-
-                if (i < firstNumber)
-                {
-                    Console.WriteLine("Число " + i + " - не трехзначное число.");
-                }
-                else if (i >= firstNumber)
-                {
-                    Console.WriteLine("Число " + i + " - трехзначное кратное число.");
-                    sumOfNumbers++;
-                }
-            }
-            Console.WriteLine($"Количество трехзначных натуральных чисел кратных {number} = {sumOfNumbers}.");*/
+            // См. проект MultiplesOfNumbers
 
             // ДЗ. Степень двойки.
             /*Random random = new Random();
@@ -332,7 +307,7 @@ namespace OperatorsAndLoops
             Console.WriteLine($"Число = {number}, степень = {powerOfTwo}, 2**{powerOfTwo} = {twoToDegree}.");*/
 
             // ДЗ. Вывод имени
-            
+
 
             // ДЗ. Скобочное выражение
             /*string expression;
