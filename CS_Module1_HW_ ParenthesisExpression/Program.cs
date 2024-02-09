@@ -1,40 +1,48 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace CS_Module1_HW_ParenthesisExpression
+internal class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        int enclosure = 0;
+        int maxEnclosure = 0;
+        char symbol1 = '(';
+        char symbol2 = ')';
+        string text;
+        bool isCorrect = true;
+
+        Console.WriteLine("Введите строку из символов '(' и ')'");
+        text = Console.ReadLine();
+
+        foreach (char symbol in text)
         {
-            string expression;
-            int leftSymbol = 0;
-            int rightSymbol = 0;
-            int enclousure = 0;
-            bool isCorrect = true;
-
-            Console.WriteLine("Введите скобочное выражение: ");
-            expression = "(()()((())))(";
-
-            foreach (var symbol in expression)
+            if (symbol == symbol1)
             {
-                if (symbol == 40)
+                enclosure++;
+
+                if (enclosure > maxEnclosure)
                 {
-                    enclousure++;
-                }
-                else if (symbol == 41)
-                {
-                    enclousure--;
+                    maxEnclosure = enclosure;
                 }
             }
-
-            if (enclousure != 0)
+            else if (symbol == symbol2)
             {
-                isCorrect = false;
+                enclosure--;
+
+                if (enclosure < 0)
+                {
+                    isCorrect = false;
+                }
             }
+        }
+
+        if (isCorrect && enclosure == 0)
+        {
+            Console.WriteLine($"Строка {text} - корректная, глубина вложенности = {maxEnclosure}.");
+        }
+        else
+        {
+            Console.WriteLine($"Строка {text} - некорректная");
         }
     }
 }
