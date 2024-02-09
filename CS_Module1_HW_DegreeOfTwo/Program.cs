@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CS_Module1_HW_DegreeOfTwo
 {
@@ -11,21 +7,18 @@ namespace CS_Module1_HW_DegreeOfTwo
         static void Main(string[] args)
         {
             Random random = new Random();
-            int number = random.Next(0, 1000);
-            int  numberInDegree = 1;
+
+            int maxRange = 1000;
+            int number = random.Next(maxRange);
+            int numberInDegree = 1;
             int degree = 0;
+            int step = 2;
 
-            do
+            while (number >= numberInDegree)
             {
-                if (number == 0)
-                {
-                    break;
-                }
-
                 degree++;
-                numberInDegree *= 2;
-
-            } while (number >= numberInDegree);
+                numberInDegree *= step;
+            } 
 
             Console.WriteLine($"Число = {number}, степень = {degree}, 2**{degree} = {numberInDegree}.");
         }
