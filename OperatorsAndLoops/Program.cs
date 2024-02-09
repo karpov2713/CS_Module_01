@@ -286,28 +286,7 @@ namespace OperatorsAndLoops
             // ДЗ. Кратные числа
             // См. проект MultiplesOfNumbers
 
-            // ДЗ. Степень двойки.
-            /*Random random = new Random();
-            int number = random.Next(0, 1000);
-            int twoToDegree = 1;
-            int powerOfTwo = 0;
-
-            do
-            {
-                if (number == 0)
-                {
-                    break;
-                }
-
-                powerOfTwo++;
-                twoToDegree *= 2;
-
-            } while (number >= twoToDegree);
-
-            Console.WriteLine($"Число = {number}, степень = {powerOfTwo}, 2**{powerOfTwo} = {twoToDegree}.");*/
-
             // ДЗ. Вывод имени
-
 
             // ДЗ. Скобочное выражение
             /*string expression;
