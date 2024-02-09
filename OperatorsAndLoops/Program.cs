@@ -339,6 +339,10 @@ namespace OperatorsAndLoops
             // ДЗ. Консольное меню
             // См. проект ConsoleMenu
 
+            // ДЗ. Степень двойки
+            // См. проект "CS_Module1_HW_DegreeOfTwo"
+
+
 
         }
     }
