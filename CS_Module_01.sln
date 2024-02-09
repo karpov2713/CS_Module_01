@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Modele1_HW_MultiplesOfNu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Module1_HW_DegreeOfTwo", "CS_Module1_HW_DegreeOfTwo\CS_Module1_HW_DegreeOfTwo.csproj", "{897E25B1-439A-4B8A-9D5A-7A10EE159694}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Module1_HW_ ParenthesisExpression", "CS_Module1_HW_ ParenthesisExpression\CS_Module1_HW_ ParenthesisExpression.csproj", "{23192118-6FD6-4957-BBE7-A203C7345E37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{897E25B1-439A-4B8A-9D5A-7A10EE159694}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{897E25B1-439A-4B8A-9D5A-7A10EE159694}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{897E25B1-439A-4B8A-9D5A-7A10EE159694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23192118-6FD6-4957-BBE7-A203C7345E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23192118-6FD6-4957-BBE7-A203C7345E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23192118-6FD6-4957-BBE7-A203C7345E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23192118-6FD6-4957-BBE7-A203C7345E37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

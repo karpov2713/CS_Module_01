@@ -288,40 +288,14 @@ namespace OperatorsAndLoops
 
             // ДЗ. Вывод имени
 
-            // ДЗ. Скобочное выражение
-            /*string expression;
-            int leftSymbol = 0;
-            int rightSymbol = 0;
-            int enclousure = 0;
-            bool isCorrect = true;
-
-            Console.WriteLine("Введите скобочное выражение: ");
-            expression = "(()()((())))(";
-
-            foreach (var symbol in expression)
-            {
-                if (symbol == 40)
-                {
-                    enclousure++;
-                }
-                else if (symbol == 41)
-                {
-                    enclousure--;
-                }
-            }
-
-            if (enclousure != 0) 
-            { 
-                isCorrect = false;
-            }*/
-
             // ДЗ. Консольное меню
             // См. проект ConsoleMenu
 
             // ДЗ. Степень двойки
             // См. проект "CS_Module1_HW_DegreeOfTwo"
 
-
+            // ДЗ. Скобочное выражение
+            // См. проект CS_Module1_HW_ParenthesisExpression
 
         }
     }
