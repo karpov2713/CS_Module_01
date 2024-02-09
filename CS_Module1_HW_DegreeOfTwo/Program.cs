@@ -12,8 +12,8 @@ namespace CS_Module1_HW_DegreeOfTwo
         {
             Random random = new Random();
             int number = random.Next(0, 1000);
-            int twoToDegree = 1;
-            int powerOfTwo = 0;
+            int  numberInDegree = 1;
+            int degree = 0;
 
             do
             {
@@ -22,12 +22,12 @@ namespace CS_Module1_HW_DegreeOfTwo
                     break;
                 }
 
-                powerOfTwo++;
-                twoToDegree *= 2;
+                degree++;
+                numberInDegree *= 2;
 
-            } while (number >= twoToDegree);
+            } while (number >= numberInDegree);
 
-            Console.WriteLine($"Число = {number}, степень = {powerOfTwo}, 2**{powerOfTwo} = {twoToDegree}.");
+            Console.WriteLine($"Число = {number}, степень = {degree}, 2**{degree} = {numberInDegree}.");
         }
     }
 }
