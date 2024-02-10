@@ -8,11 +8,8 @@ internal class Program
         int maxDepth = 0;
         char symbol1 = '(';
         char symbol2 = ')';
-        string text;
         bool isCorrect = true;
-
-        Console.WriteLine("Введите строку состоящую из открывающихся и закрывающихся скобок.");
-        text = Console.ReadLine();
+        string text = "()()((((()))))(";
 
         foreach (char symbol in text)
         {
