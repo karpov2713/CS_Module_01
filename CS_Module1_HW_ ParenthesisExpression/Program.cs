@@ -9,7 +9,7 @@ internal class Program
         char symbol1 = '(';
         char symbol2 = ')';
         bool isCorrect = true;
-        string text = "()()((((()))))(";
+        string text = "((()))(())";
 
         foreach (char symbol in text)
         {
