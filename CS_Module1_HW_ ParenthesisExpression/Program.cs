@@ -4,41 +4,41 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        int enclosure = 0;
-        int maxEnclosure = 0;
+        int currentDepth = 0;
+        int maxDepth = 0;
         char symbol1 = '(';
         char symbol2 = ')';
         string text;
         bool isCorrect = true;
 
-        Console.WriteLine("Введите строку из символов '(' и ')'");
+        Console.WriteLine("Введите строку состоящую из открывающихся и закрывающихся скобок.");
         text = Console.ReadLine();
 
         foreach (char symbol in text)
         {
             if (symbol == symbol1)
             {
-                enclosure++;
+                currentDepth++;
 
-                if (enclosure > maxEnclosure)
+                if (currentDepth > maxDepth)
                 {
-                    maxEnclosure = enclosure;
+                    maxDepth = currentDepth;
                 }
             }
             else if (symbol == symbol2)
             {
-                enclosure--;
+                currentDepth--;
 
-                if (enclosure < 0)
+                if (currentDepth < 0)
                 {
                     isCorrect = false;
                 }
             }
         }
 
-        if (isCorrect && enclosure == 0)
+        if (isCorrect && currentDepth == 0)
         {
-            Console.WriteLine($"Строка {text} - корректная, глубина вложенности = {maxEnclosure}.");
+            Console.WriteLine($"Строка {text} - корректная, глубина вложенности = {maxDepth}.");
         }
         else
         {
